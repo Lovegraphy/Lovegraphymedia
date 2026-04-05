@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
 @layer utilities {
   .animate-fade-in {
     animation: fadeIn 1s ease-in;
@@ -49,4 +55,9 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
