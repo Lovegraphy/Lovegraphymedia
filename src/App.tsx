@@ -195,11 +195,11 @@ function App() {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <div className="absolute inset-0 bg-white/20 rounded-full blur-2xl"></div>
-              <div className="relative bg-white rounded-full p-3 shadow-2xl">
+              <div className="relative bg-white rounded-full p-3 shadow-2xl overflow-hidden">
                 <img
                   src="/file_00000000d128720ba4b334cd306b2907.png"
                   alt="Lovegraphy Media Logo"
-                  className="h-16 w-16 md:h-20 md:w-20"
+                  className="h-16 w-16 md:h-20 md:w-20 object-contain"
                 />
               </div>
             </div>
